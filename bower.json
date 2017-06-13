@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "authors": [
+    "Dmitry Scherenkov <dms@kolibri-group.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "reset-css": "^2.2.0",
+    "magnific-popup": "Magnific-Popup#^1.1.0",
+    "jquery.form-styler": "^1.7.8",
+    "swiper": "^3.4.2",
+    "jquery-mask-plugin": "^1.14.10"
+  },
+  "devDependencies": {}
+}

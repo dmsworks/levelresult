@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="66px" height="75px" viewBox="0 0 66 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Без названия (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Без-названия-(1)">
+            <g id="Group">
+                <path d="M28.2730731,19.198 L54.5146238,19.198 C55.320445,19.198 55.972,18.162 55.972,16.877 C55.972,15.588 55.320445,14.551 54.5146238,14.551 L28.2730731,14.551 C27.4659978,14.551 26.8144428,15.588 26.8144428,16.877 C26.8144428,18.162 27.4659978,19.198 28.2730731,19.198 Z" id="Shape" fill="#CAC4C4"></path>
+                <path d="M28.2730731,33.151 L54.5146238,33.151 C55.320445,33.151 55.972,32.114 55.972,30.825 C55.972,29.54 55.320445,28.504 54.5146238,28.504 L28.2730731,28.504 C27.4659978,28.504 26.8144428,29.54 26.8144428,30.825 C26.8144428,32.114 27.4659978,33.151 28.2730731,33.151 Z" id="Shape" fill="#CAC4C4"></path>
+                <path d="M28.2730731,47.099 L54.5146238,47.099 C55.320445,47.099 55.972,46.063 55.972,44.778 C55.972,43.489 55.320445,42.452 54.5146238,42.452 L28.2730731,42.452 C27.4659978,42.452 26.8144428,43.489 26.8144428,44.778 C26.8144428,46.062 27.4659978,47.099 28.2730731,47.099 Z" id="Shape" fill="#CAC4C4"></path>
+                <path d="M65.273,5.251 C65.273,2.682 63.195,0.604 60.623,0.604 L4.828,0.604 C2.262,0.604 0.176,2.682 0.176,5.251 L0.176,70.352 C0.176,72.921 2.262,74.999 4.828,74.999 L46.676,74.999 L65.274,56.398 L65.274,5.251 L65.273,5.251 Z M46.676,68.427 L46.676,56.398 L58.699,56.398 L46.676,68.427 Z M60.623,51.751 L46.676,51.751 C44.102,51.751 42.026,53.835 42.026,56.398 L42.026,70.351 L4.828,70.351 L4.828,5.251 L60.623,5.251 L60.623,51.751 Z" id="Shape" fill="#CAC4C4"></path>
+                <g id="Group-2" transform="translate(16.000000, 31.000000) rotate(-270.000000) translate(-16.000000, -31.000000) translate(-6.000000, 23.000000)">
+                    <circle id="Oval" fill="#CD0E1E" transform="translate(36.000000, 8.000000) rotate(79.000000) translate(-36.000000, -8.000000) " cx="36" cy="8" r="6"></circle>
+                    <circle id="Oval" fill="#FFFFFF" transform="translate(36.000000, 8.000000) rotate(79.000000) translate(-36.000000, -8.000000) " cx="36" cy="8" r="2"></circle>
+                    <circle id="Oval" fill="#82807F" transform="translate(22.000000, 8.000000) rotate(79.000000) translate(-22.000000, -8.000000) " cx="22" cy="8" r="6"></circle>
+                    <circle id="Oval" fill="#FFFFFF" transform="translate(22.000000, 8.000000) rotate(79.000000) translate(-22.000000, -8.000000) " cx="22" cy="8" r="2"></circle>
+                    <circle id="Oval" fill="#CAC4C4" transform="translate(8.000000, 8.000000) rotate(79.000000) translate(-8.000000, -8.000000) " cx="8" cy="8" r="6"></circle>
+                    <circle id="Oval" fill="#FFFFFF" transform="translate(8.000000, 8.000000) rotate(79.000000) translate(-8.000000, -8.000000) " cx="8" cy="8" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

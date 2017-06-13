@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>Level Result</title>
+    <meta name="Author" content="" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900&amp;subset=cyrillic" rel="stylesheet">
+    <!-- build:css css/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/reset-css/reset.css" />
+    <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css" />
+    <link rel="stylesheet" href="bower_components/jquery.form-styler/jquery.formstyler.css" />
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- endbuild -->
+
+    <!-- build:js js/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="bower_components/jquery.form-styler/jquery.formstyler.min.js"></script>
+    <script src="bower_components/swiper/dist/js/swiper.js"></script>
+    <script src="bower_components/jquery-mask-plugin/dist/jquery.mask.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js js/main.js -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body>
+    <a href="#popup_goal" class="js-popup-open">Цель</a>&nbsp; &nbsp;
+    <a href="#popup_consult" class="js-popup-open">Консультация</a>&nbsp; &nbsp;
+    <a href="#popup_audit" class="js-popup-open">Аудит</a>&nbsp; &nbsp;
+    <a href="#popup_result" class="js-popup-open">Посчитать результат</a>&nbsp; &nbsp;
+    <!-- Установить цель -->
+    <div class="popup popup_goal mfp-hide" id="popup_goal">
+        <div class="popup__content">
+            <div class="popup__left">
+                <div class="popup__header">Самостоятельно <span>Установить цель</span></div>
+                <form class="popup__form phoneChecker" action="" method="">
+                    <select class="styler" name="" data-placeholder="Желаемое кол-во заявок">
+                    <option></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                    <select class="styler" name="" data-placeholder="Период рекламирования">
+                    <option></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                    <select class="styler" name="" data-placeholder="Рекламный бюджет">
+                    <option></option>
+                    <option value="от 10 000 - 50 000">от 10 000 - 50 000</option>
+                    <option value="от 50 000 - 100 000">от 50 000 - 100 000</option>
+                    <option value="от 100 000 - 500 000">от 100 000 - 500 000</option>
+                </select>
+                    <input type="text" class="styler form_input phone_regex" placeholder="Контактный телефон">
+                    <input type="text" class="styler form_input" placeholder="Ссылка на Ваш сайт">
+                    <div class="button-container">
+                        <button class="button button_yellow">Отправить</button>
+                    </div>
+                </form>
+            </div>
+            <div class="popup__right">
+                <div class="popup__header">Получить<span>Бесплатную консультацию специалиста</span></div>
+                <form class="popup__form phoneChecker" action="" method="">
+                    <input type="text" class="styler form_input" placeholder="Как Вас зовут?">
+                    <input type="text" class="styler form_input phone_regex" placeholder="Контактный телефон">
+                    <input type="text" class="styler form_input" placeholder="Ссылка на Ваш сайт">
+                    <div class="popup__form-text">У вас есть/были компании в Я.Директ и G.Adwords?</div>
+                    <label class="label label_cb"><input type="radio" name="radio-1" value="да" class="styler" checked>Да</label>
+                    <label class="label label_cb"><input type="radio" name="radio-1" value="нет" class="styler">Нет</label>
+                    <label class="label label_cb"><input type="radio" name="radio-1" value="не знаю" class="styler">Не знаю</label>
+                    <div class="button-container">
+                        <button class="button button_red">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="popup__bottom">Ведущий специалист свяжется с Вами в течении 90 секунд</div>
+    </div>
+    <!-- Получить консультацию -->
+    <div class="popup popup_small mfp-hide" id="popup_consult">
+        <div class="popup__header"><span>Получить консультацию</span>Время обработки заявки 90 секунд</div>
+        <form class="popup__form phoneChecker" action="" method="">
+            <input type="text" class="styler form_input" placeholder="Как вас зовут?">
+            <input type="text" class="styler form_input phone_regex" placeholder="Контактный телефон">
+            <div class="button-container">
+                <button class="button button_yellow">Отправить</button>
+            </div>
+        </form>
+        <div class="popup__bottom bottom_small_text">Ведущий специалист свяжется с Вами в течении 90 секунд</div>
+    </div>
+    <!-- Аудит -->
+    <div class="popup popup_small mfp-hide" id="popup_audit">
+        <div class="popup__header"><span>Аудит</span>Время обработки заявки 90 секунд</div>
+        <form class="popup__form phoneChecker" action="" method="">
+            <input type="text" class="styler form_input" placeholder="Как вас зовут?">
+            <input type="text" class="styler form_input phone_regex" placeholder="Контактный телефон">
+            <textarea name="" class="styler form_textarea" placeholder="Опишите Вашу проблему в двух словах"></textarea>
+            <div class="button-container">
+                <button class="button button_yellow">Отправить</button>
+            </div>
+        </form>
+        <div class="popup__bottom bottom_small_text">Ведущий специалист свяжется с Вами в течении 90 секунд</div>
+    </div>
+    <!-- Получить консультацию (ошибки) -->
+    <div class="popup popup_small">
+        <div class="popup__header"><span>Получить консультацию</span>Время обработки заявки 90 секунд</div>
+        <form class="popup__form phoneChecker" action="" method="">
+            <input type="text" class="styler form_input input_error" placeholder="Как вас зовут?">
+            <div class="form-error">Необходимо указать имя</div>
+            <input type="text" class="styler form_input input_error phone_regex" placeholder="Контактный телефон">
+            <div class="form-error">Необходимо указать телефон</div>
+            <div class="button-container">
+                <button class="button button_yellow">Отправить</button>
+            </div>
+        </form>
+        <div class="popup__bottom bottom_small_text">Ведущий специалист свяжется с Вами в течении 90 секунд</div>
+    </div>
+    <!-- Посчитать результат -->
+    <div class="popup popup_small mfp-hide" id="popup_result">
+        <div class="popup__header"><span>Посчитать результат</span>Время обработки заявки 90 секунд</div>
+        <form class="popup__form phoneChecker" action="" method="">
+            <input type="text" class="styler form_input" placeholder="Как вас зовут?">
+            <input type="text" class="styler form_input phone_regex" placeholder="Контактный телефон">
+            <input type="text" class="styler form_input" placeholder="Ссылка на Ваш сайт">
+            <div class="button-container">
+                <button class="button button_yellow">Отправить</button>
+            </div>
+        </form>
+        <div class="popup__bottom bottom_small_text">Ведущий специалист свяжется с Вами в течении 90 секунд</div>
+    </div>
+    <!-- Ваша заявка отправлена -->
+    <div class="popup popup_small popup_confirm">
+        <img class="send-arrow" src="img/ico/send.svg" alt="">
+        Ваша заявка <span>отправлена</span>
+    </div>
+</body>
+
+</html>
